@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="eventsApp" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav" >
+                <li><a href="#/newEvent">CREATE NEW EVENT></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+<ng-view></ng-view>
+</div>
+<script src="/lib/jquery.min.js"></script>
+<script src="/lib/underscore-1.4.4.min.js"></script>
+<script src="/lib/bootstrap.min.js"></script>
+<script src="/lib/angular/angular.js"></script>
+<script src="/lib/angular/angular-route.min.js"></script>
+<script src="/lib/angular/angular-resource.min.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/services/myEventData.js"></script>
+<script src="/js/controllers/myEditEventController.js"></script>
+<script src="/js/controllers/EventController.js"></script>
+<script src="/js/controllers/EditProfileController.js"></script>
+<script src="/js/services/GravatarUrlBuilder.js"></script>
+<script src="/js/services/UserData.js"></script>
+<script src="/js/services/authentication.js"></script>
+
+</body>
+</html>
